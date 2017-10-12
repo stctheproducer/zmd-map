@@ -6,8 +6,8 @@
 		  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Test</title>
-	<link rel="stylesheet" href="public/css/app.css">
-	<link rel="stylesheet" href="public/css/custom.css">	
+	<link rel="stylesheet" href="assets/css/app.css">
+	<link rel="stylesheet" href="assets/css/custom.css">	
 </head>
 <body>
 	<div class="container">
@@ -59,6 +59,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
 		integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>-->
-<script src="public/js/app.js"></script>
+<script src="assets/js/app.js"></script>
 </body>
 </html>
