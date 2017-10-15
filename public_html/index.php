@@ -9,12 +9,12 @@
 			<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
 				<div class="form-group">
 					<label for="max_temp">Maximum Temperature</label>
-					<input type="text" name="max_temp" id="max_temp" class="form-control" placeholder="Max Temperature">
+					<input type="text" name="max_temp" id="max_temp" class="form-control" placeholder="Max Temperature" value="">
 				</div>
 
 				<div class="form-group">
 					<label for="min_temp">Minimum Temperature</label>
-					<input type="text" name="min_temp" id="" class="form-control" placeholder="Min Temperature">
+					<input type="text" name="min_temp" id="min_temp" class="form-control" placeholder="Min Temperature">
 				</div>
 
 
@@ -29,12 +29,11 @@
 				</div>
 
 				<div class="form-group">
-					<button type="submit" class="btn btn-primary">Done</button>
+					<button type="submit" name="submit_add_readings" class="btn btn-primary">Done</button>
 				</div>
 
 			</form>
 		</div>
 	</div>
 </div>
-
 <?php include('includes/footer.inc.php'); ?>
